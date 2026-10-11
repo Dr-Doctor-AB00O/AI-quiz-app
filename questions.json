@@ -1,0 +1,788 @@
+[
+ {
+  "t": "M",
+  "d": 0,
+  "tp": "Foundations",
+  "q": "Who coined the term 'Artificial Intelligence' at the 1956 Dartmouth workshop?",
+  "o": [
+   "John McCarthy",
+   "Alan Turing",
+   "Marvin Minsky",
+   "Herbert Simon"
+  ],
+  "a": 0,
+  "e": "McCarthy coined it in the 1956 proposal."
+ },
+ {
+  "t": "M",
+  "d": 0,
+  "tp": "Turing Test",
+  "q": "In the Turing Test, the interrogator must distinguish:",
+  "o": [
+   "A human from a machine via text chat",
+   "Two humans by voice",
+   "Two programs by speed",
+   "A robot from a human by touch"
+  ],
+  "a": 0,
+  "e": "It is a text-based imitation game."
+ },
+ {
+  "t": "T",
+  "d": 0,
+  "tp": "Turing Test",
+  "q": "Passing the standard Turing Test requires the machine to have a physical body.",
+  "o": [
+   "True",
+   "False"
+  ],
+  "a": 1,
+  "e": "False: the standard test is text-only; the Total Turing Test adds perception and robotics."
+ },
+ {
+  "t": "M",
+  "d": 0,
+  "tp": "Rational Agents",
+  "q": "A rational agent chooses the action that:",
+  "o": [
+   "Maximises expected performance measure",
+   "Runs fastest",
+   "Uses the most memory",
+   "Is random"
+  ],
+  "a": 0,
+  "e": "Rationality = maximise expected performance given percepts."
+ },
+ {
+  "t": "F",
+  "d": 0,
+  "tp": "Agents",
+  "q": "An agent's ____ maps percept sequences to actions.",
+  "o": [
+   "agent function",
+   "goal test",
+   "state space",
+   "heuristic"
+  ],
+  "a": 0,
+  "e": "That is the definition of the agent function."
+ },
+ {
+  "t": "M",
+  "d": 0,
+  "tp": "PEAS",
+  "q": "PEAS stands for:",
+  "o": [
+   "Performance, Environment, Actuators, Sensors",
+   "Planning, Evaluation, Action, Search",
+   "Percept, Execution, Agent, State",
+   "Problem, Estimate, Algorithm, Solution"
+  ],
+  "a": 0,
+  "e": "PEAS describes a task environment."
+ },
+ {
+  "t": "M",
+  "d": 1,
+  "tp": "Intelligent Agents",
+  "q": "Which agent keeps internal state to cope with partial observability?",
+  "o": [
+   "Model-based reflex agent",
+   "Simple reflex agent",
+   "Random agent",
+   "Stateless lookup table"
+  ],
+  "a": 0,
+  "e": "It tracks how the world evolves."
+ },
+ {
+  "t": "M",
+  "d": 1,
+  "tp": "Intelligent Agents",
+  "q": "Which agent compares how 'happy' different world states would make it?",
+  "o": [
+   "Utility-based",
+   "Goal-based",
+   "Simple reflex",
+   "Table-driven"
+  ],
+  "a": 0,
+  "e": "A utility function scores states."
+ },
+ {
+  "t": "T",
+  "d": 1,
+  "tp": "Intelligent Agents",
+  "q": "A simple reflex agent decides using only the current percept.",
+  "o": [
+   "True",
+   "False"
+  ],
+  "a": 0,
+  "e": "True: condition-action rules, no memory."
+ },
+ {
+  "t": "M",
+  "d": 1,
+  "tp": "Nature of Environments",
+  "q": "Taxi driving is best classified as:",
+  "o": [
+   "Partially observable, stochastic, dynamic, continuous",
+   "Fully observable, deterministic, static, discrete",
+   "Fully observable, stochastic, static, discrete",
+   "Deterministic, episodic, static, discrete"
+  ],
+  "a": 0,
+  "e": "Traffic is uncertain and constantly changing."
+ },
+ {
+  "t": "T",
+  "d": 1,
+  "tp": "Nature of Environments",
+  "q": "In a deterministic environment, the next state is fully determined by the current state and the agent's action.",
+  "o": [
+   "True",
+   "False"
+  ],
+  "a": 0,
+  "e": "True by definition."
+ },
+ {
+  "t": "X",
+  "d": 1,
+  "tp": "Nature of Environments",
+  "q": "Match: 1 Episodic, 2 Static, 3 Discrete, 4 Multi-agent<br>a) Unchanged while agent thinks b) Finite states/actions c) Decisions independent of the past d) Other agents affect outcomes",
+  "o": [
+   "1-c, 2-a, 3-b, 4-d",
+   "1-a, 2-c, 3-d, 4-b",
+   "1-b, 2-d, 3-c, 4-a",
+   "1-d, 2-b, 3-a, 4-c"
+  ],
+  "a": 0,
+  "e": "Episodic=c, Static=a, Discrete=b, Multi-agent=d."
+ },
+ {
+  "t": "A",
+  "d": 1,
+  "tp": "Good Behaviour",
+  "q": "A: A rational agent is always omniscient.|R: Rationality maximises expected performance, not actual outcome.",
+  "o": [
+   "Both A and R are true; R explains A",
+   "Both A and R are true; R does not explain A",
+   "A is true, R is false",
+   "A is false, R is true"
+  ],
+  "a": 3,
+  "e": "Rational agents are not omniscient; A is false, R is true."
+ },
+ {
+  "t": "M",
+  "d": 0,
+  "tp": "Problem Spaces",
+  "q": "Which is NOT a component of a well-defined search problem?",
+  "o": [
+   "Learning rate",
+   "Initial state",
+   "Goal test",
+   "Path cost"
+  ],
+  "a": 0,
+  "e": "Learning rate belongs to ML, not search formulation."
+ },
+ {
+  "t": "F",
+  "d": 0,
+  "tp": "Production Systems",
+  "q": "A production system has rules, a ____ and a control strategy.",
+  "o": [
+   "global database (working memory)",
+   "neural network",
+   "compiler",
+   "loss function"
+  ],
+  "a": 0,
+  "e": "Rules + database + control strategy."
+ },
+ {
+  "t": "M",
+  "d": 1,
+  "tp": "Problem Characteristics",
+  "q": "Chess is an irrecoverable problem because:",
+  "o": [
+   "Moves cannot be undone",
+   "It is decomposable",
+   "Its rules are ignorable",
+   "Its state space is small"
+  ],
+  "a": 0,
+  "e": "Irrecoverable steps can't be undone."
+ },
+ {
+  "t": "T",
+  "d": 1,
+  "tp": "Search Design Issues",
+  "q": "Graph search avoids re-expanding repeated states, unlike plain tree search.",
+  "o": [
+   "True",
+   "False"
+  ],
+  "a": 0,
+  "e": "True: it keeps an explored set."
+ },
+ {
+  "t": "M",
+  "d": 0,
+  "tp": "BFS",
+  "q": "BFS keeps its frontier in a:",
+  "o": [
+   "FIFO queue",
+   "LIFO stack",
+   "Priority queue by h(n)",
+   "Hash table only"
+  ],
+  "a": 0,
+  "e": "FIFO gives level-by-level expansion."
+ },
+ {
+  "t": "F",
+  "d": 0,
+  "tp": "DFS",
+  "q": "DFS expands the ____ node first, using a LIFO stack.",
+  "o": [
+   "deepest",
+   "shallowest",
+   "cheapest",
+   "random"
+  ],
+  "a": 0,
+  "e": "It dives down before backtracking."
+ },
+ {
+  "t": "M",
+  "d": 1,
+  "tp": "BFS",
+  "q": "BFS time complexity (branching b, goal depth d):",
+  "o": [
+   "O(b^d)",
+   "O(bd)",
+   "O(d^b)",
+   "O(b+d)"
+  ],
+  "a": 0,
+  "e": "It may generate every node to depth d."
+ },
+ {
+  "t": "T",
+  "d": 1,
+  "tp": "BFS",
+  "q": "BFS is complete, and optimal when all step costs are equal.",
+  "o": [
+   "True",
+   "False"
+  ],
+  "a": 0,
+  "e": "It finds the shallowest goal."
+ },
+ {
+  "t": "M",
+  "d": 1,
+  "tp": "DFS",
+  "q": "DFS can fail on infinite state spaces because it:",
+  "o": [
+   "Can follow an infinite branch forever",
+   "Needs O(b^d) memory",
+   "Always finds the shallowest goal",
+   "Needs a heuristic"
+  ],
+  "a": 0,
+  "e": "No depth bound, so it may never return."
+ },
+ {
+  "t": "M",
+  "d": 1,
+  "tp": "Iterative Deepening",
+  "q": "Iterative deepening combines:",
+  "o": [
+   "BFS completeness/optimality with DFS low memory",
+   "Hill climbing with BFS",
+   "A* with DFS",
+   "Greedy search with BFS"
+  ],
+  "a": 0,
+  "e": "Repeated depth-limited DFS."
+ },
+ {
+  "t": "F",
+  "d": 2,
+  "tp": "Iterative Deepening",
+  "q": "Re-expansion overhead in IDS is small because most nodes lie at the ____ level.",
+  "o": [
+   "deepest",
+   "root",
+   "middle",
+   "first"
+  ],
+  "a": 0,
+  "e": "The bottom level dominates the node count."
+ },
+ {
+  "t": "M",
+  "d": 0,
+  "tp": "Hill Climbing",
+  "q": "Hill climbing is a form of:",
+  "o": [
+   "Greedy local search",
+   "Uniform-cost search",
+   "Bidirectional search",
+   "Minimax"
+  ],
+  "a": 0,
+  "e": "It always moves to a better neighbour."
+ },
+ {
+  "t": "M",
+  "d": 1,
+  "tp": "Hill Climbing",
+  "q": "A local maximum is a state that is:",
+  "o": [
+   "Better than its neighbours but worse than the global maximum",
+   "A flat region",
+   "The global maximum",
+   "A ridge"
+  ],
+  "a": 0,
+  "e": "Hill climbing gets stuck there."
+ },
+ {
+  "t": "M",
+  "d": 1,
+  "tp": "HC Variations",
+  "q": "Random-restart hill climbing mainly helps to:",
+  "o": [
+   "Escape local maxima by trying many starts",
+   "Reduce memory to zero",
+   "Guarantee optimality in every case",
+   "Speed up each step"
+  ],
+  "a": 0,
+  "e": "Different starts reach different peaks."
+ },
+ {
+  "t": "M",
+  "d": 2,
+  "tp": "HC Variations",
+  "q": "Simulated annealing accepts worse moves with a probability that:",
+  "o": [
+   "Decreases as temperature falls",
+   "Is always zero",
+   "Is always one",
+   "Increases over time"
+  ],
+  "a": 0,
+  "e": "Cooling reduces randomness."
+ },
+ {
+  "t": "A",
+  "d": 1,
+  "tp": "Hill Climbing",
+  "q": "A: Hill climbing can stall on a plateau.|R: On a plateau all neighbours have equal heuristic values, so there is no direction to move.",
+  "o": [
+   "Both A and R are true; R explains A",
+   "Both A and R are true; R does not explain A",
+   "A is true, R is false",
+   "A is false, R is true"
+  ],
+  "a": 0,
+  "e": "Both true and R explains A."
+ },
+ {
+  "t": "M",
+  "d": 0,
+  "tp": "Heuristic Search",
+  "q": "A heuristic h(n) estimates:",
+  "o": [
+   "Cost from n to the goal",
+   "Cost from start to n",
+   "Depth of n",
+   "Branching factor"
+  ],
+  "a": 0,
+  "e": "h(n) is the estimated remaining cost."
+ },
+ {
+  "t": "M",
+  "d": 1,
+  "tp": "Best First Search",
+  "q": "Greedy best-first search orders the frontier by:",
+  "o": [
+   "h(n)",
+   "g(n)",
+   "g(n)+h(n)",
+   "Depth"
+  ],
+  "a": 0,
+  "e": "It chases the node that looks closest."
+ },
+ {
+  "t": "M",
+  "d": 1,
+  "tp": "Best First Search",
+  "q": "A* evaluates nodes with f(n) =",
+  "o": [
+   "g(n)+h(n)",
+   "h(n)",
+   "g(n)",
+   "g(n)-h(n)"
+  ],
+  "a": 0,
+  "e": "Path cost so far plus estimate."
+ },
+ {
+  "t": "T",
+  "d": 2,
+  "tp": "Best First Search",
+  "q": "A* with an admissible heuristic (never overestimates) is optimal.",
+  "o": [
+   "True",
+   "False"
+  ],
+  "a": 0,
+  "e": "True (tree search; consistency needed for graph search)."
+ },
+ {
+  "t": "M",
+  "d": 1,
+  "tp": "Best First Search",
+  "q": "Greedy best-first search is:",
+  "o": [
+   "Neither optimal nor complete in general",
+   "Optimal and complete",
+   "Optimal but incomplete",
+   "Always O(1) space"
+  ],
+  "a": 0,
+  "e": "It can loop or take costly paths."
+ },
+ {
+  "t": "M",
+  "d": 0,
+  "tp": "CSP",
+  "q": "A CSP is defined by:",
+  "o": [
+   "Variables, domains, constraints",
+   "States, actions, costs",
+   "Agents, percepts, actuators",
+   "Rules, facts, goals"
+  ],
+  "a": 0,
+  "e": "X, D, C."
+ },
+ {
+  "t": "M",
+  "d": 1,
+  "tp": "CSP",
+  "q": "In map colouring, 'adjacent regions differ' is a ____ constraint.",
+  "o": [
+   "binary",
+   "unary",
+   "ternary",
+   "global-only"
+  ],
+  "a": 0,
+  "e": "It involves two variables."
+ },
+ {
+  "t": "M",
+  "d": 1,
+  "tp": "CSP",
+  "q": "Backtracking search for CSPs is essentially:",
+  "o": [
+   "DFS assigning one variable at a time",
+   "BFS over states",
+   "Hill climbing",
+   "Minimax"
+  ],
+  "a": 0,
+  "e": "Assign, check, undo on conflict."
+ },
+ {
+  "t": "M",
+  "d": 2,
+  "tp": "CSP",
+  "q": "The MRV heuristic picks the variable with:",
+  "o": [
+   "Fewest legal values left",
+   "Most legal values",
+   "Most neighbours only",
+   "Alphabetical order"
+  ],
+  "a": 0,
+  "e": "Fail-first reduces branching."
+ },
+ {
+  "t": "M",
+  "d": 1,
+  "tp": "Means-End Analysis",
+  "q": "Means-end analysis works by:",
+  "o": [
+   "Reducing the difference between current and goal state using operators",
+   "Expanding the deepest node",
+   "Random walks",
+   "Only forward chaining"
+  ],
+  "a": 0,
+  "e": "Pick an operator that shrinks the difference."
+ },
+ {
+  "t": "S",
+  "d": 0,
+  "tp": "Agents",
+  "q": "A robot vacuum reacts only to its current dirt/bump sensor reading. Which agent type is it?",
+  "o": [
+   "Simple reflex",
+   "Utility-based",
+   "Learning agent",
+   "Goal-based"
+  ],
+  "a": 0,
+  "e": "Pure condition-action behaviour."
+ },
+ {
+  "t": "S",
+  "d": 0,
+  "tp": "PEAS",
+  "q": "For a self-driving taxi, steering, brake and horn are its:",
+  "o": [
+   "Actuators",
+   "Sensors",
+   "Performance measure",
+   "Environment"
+  ],
+  "a": 0,
+  "e": "Actuators act on the world."
+ },
+ {
+  "t": "S",
+  "d": 1,
+  "tp": "Heuristic Search",
+  "q": "Google Maps finds a fast route between cities using road distances plus estimates. Core technique?",
+  "o": [
+   "Heuristic search like A*",
+   "Turing Test",
+   "Hill climbing only",
+   "Random walk"
+  ],
+  "a": 0,
+  "e": "A*-style search on a road graph."
+ },
+ {
+  "t": "S",
+  "d": 1,
+  "tp": "CSP",
+  "q": "A college schedules exams so no student has two at the same time, with limited slots. This is a:",
+  "o": [
+   "CSP (exams = variables, slots = domain)",
+   "Turing Test",
+   "Reflex agent",
+   "Plain BFS puzzle"
+  ],
+  "a": 0,
+  "e": "Classic timetabling CSP."
+ },
+ {
+  "t": "S",
+  "d": 1,
+  "tp": "Hill Climbing",
+  "q": "A courier keeps swapping two stops if the route gets shorter, and stops when no swap helps. This is:",
+  "o": [
+   "Hill climbing",
+   "BFS",
+   "Means-end analysis",
+   "Iterative deepening"
+  ],
+  "a": 0,
+  "e": "Greedy local improvement."
+ },
+ {
+  "t": "S",
+  "d": 0,
+  "tp": "Turing Test",
+  "q": "A help-desk chatbot convinces users they are chatting with a human. Which concept does this illustrate?",
+  "o": [
+   "Turing Test",
+   "CSP",
+   "Best-first search",
+   "Production system"
+  ],
+  "a": 0,
+  "e": "Indistinguishable in text conversation."
+ },
+ {
+  "t": "S",
+  "d": 1,
+  "tp": "Means-End Analysis",
+  "q": "A robot arm stacks blocks by repeatedly choosing an action that reduces the gap to the target arrangement. Technique?",
+  "o": [
+   "Means-end analysis",
+   "DFS",
+   "Simulated annealing",
+   "Minimax"
+  ],
+  "a": 0,
+  "e": "Difference reduction via operators."
+ },
+ {
+  "t": "S",
+  "d": 1,
+  "tp": "Nature of Environments",
+  "q": "A spam filter classifies each email independently of earlier ones. Its environment is:",
+  "o": [
+   "Episodic",
+   "Sequential",
+   "Continuous",
+   "Adversarial"
+  ],
+  "a": 0,
+  "e": "Each decision is independent."
+ },
+ {
+  "t": "S",
+  "d": 2,
+  "tp": "Iterative Deepening",
+  "q": "A route planner must be complete with low memory on a huge graph where goal depth is unknown. Best uninformed choice?",
+  "o": [
+   "Iterative deepening",
+   "Plain BFS",
+   "Plain DFS",
+   "Greedy best-first"
+  ],
+  "a": 0,
+  "e": "IDS: complete, memory O(bd)."
+ },
+ {
+  "t": "S",
+  "d": 2,
+  "tp": "Intelligent Agents",
+  "q": "A self-driving car picks a slightly longer route for safety and comfort. Which agent type?",
+  "o": [
+   "Utility-based",
+   "Simple reflex",
+   "Table-driven",
+   "Goal-based only"
+  ],
+  "a": 0,
+  "e": "Trade-offs need a utility function."
+ },
+ {
+  "t": "S",
+  "d": 1,
+  "tp": "Rational Agents",
+  "q": "A diagnostic AI chooses tests to maximise expected patient outcome under uncertainty. It acts as a:",
+  "o": [
+   "Rational agent",
+   "Omniscient agent",
+   "Simple lookup table",
+   "Random agent"
+  ],
+  "a": 0,
+  "e": "Maximises expected performance."
+ },
+ {
+  "t": "P",
+  "d": 1,
+  "tp": "State Space",
+  "q": "8-puzzle: how many states are reachable from any given start state?",
+  "o": [
+   "181,440",
+   "362,880",
+   "40,320",
+   "9"
+  ],
+  "a": 0,
+  "e": "9!/2: half the permutations are unreachable."
+ },
+ {
+  "t": "P",
+  "d": 1,
+  "tp": "BFS",
+  "q": "Tree with b=3, goal at depth 3. Worst-case nodes generated up to depth 3, including root:",
+  "o": [
+   "40",
+   "27",
+   "36",
+   "81"
+  ],
+  "a": 0,
+  "e": "1+3+9+27 = 40."
+ },
+ {
+  "t": "P",
+  "d": 1,
+  "tp": "DFS",
+  "q": "Graph: S→A,B; A→C,D; B→G. DFS (left to right) visit order until G is found:",
+  "o": [
+   "S,A,C,D,B,G",
+   "S,A,B,C,D,G",
+   "S,B,G",
+   "S,A,C,B,G"
+  ],
+  "a": 0,
+  "e": "DFS goes deep through A first, then B, then G."
+ },
+ {
+  "t": "P",
+  "d": 2,
+  "tp": "A* Search",
+  "q": "A*: node n has g=4, h=3; node m has g=2, h=6. Which is expanded first?",
+  "o": [
+   "n (f=7)",
+   "m (f=8)",
+   "Tie",
+   "Neither"
+  ],
+  "a": 0,
+  "e": "Lower f(n) is expanded first."
+ },
+ {
+  "t": "P",
+  "d": 2,
+  "tp": "Hill Climbing",
+  "q": "Hill climbing (lower h is better): current h=5, neighbours h=6,7,5. What happens?",
+  "o": [
+   "Stops: no strictly better neighbour",
+   "Moves to 6",
+   "Moves to 7",
+   "Restarts automatically"
+  ],
+  "a": 0,
+  "e": "No improvement: local minimum/plateau."
+ },
+ {
+  "t": "P",
+  "d": 2,
+  "tp": "Iterative Deepening",
+  "q": "IDS with b=2, goal at depth 2 (last level fully generated). Total nodes generated over all iterations:",
+  "o": [
+   "11",
+   "7",
+   "15",
+   "14"
+  ],
+  "a": 0,
+  "e": "Limit 0: 1, limit 1: 3, limit 2: 7, total 11."
+ },
+ {
+  "t": "P",
+  "d": 1,
+  "tp": "CSP",
+  "q": "Three mutually adjacent regions must be coloured with only 2 colours. The CSP is:",
+  "o": [
+   "Unsatisfiable",
+   "Has 2 solutions",
+   "Has 6 solutions",
+   "Has exactly 1 solution"
+  ],
+  "a": 0,
+  "e": "A triangle needs 3 colours."
+ }
+]
